@@ -1,0 +1,7 @@
+path: /home/jungjinwoo/Embe_learning/yolo_left_right/dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: left
+  1: right

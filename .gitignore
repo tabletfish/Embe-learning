@@ -1,0 +1,25 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.matplotlib/
+*.pyc
+*.pyo
+*.pyd
+.codex
+
+# Model artifacts and local training output
+yolo_left_right/runs/
+runs/
+*.pt
+
+# Large local media and extracted frames
+raw_videos/
+extracted_frames/
+yolo_left_right/dataset/
+yolo_left_right/labeling/
+yolo_left_right/roboflow_upload/
+yolo_left_right/roboflow_export/
+
+# Temporary editor or notebook exports
+*.tmp
